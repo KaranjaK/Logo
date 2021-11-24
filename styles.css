@@ -1,0 +1,62 @@
+/* Styling for the entire page */
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+/* This will style the header section */
+header{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(resources/spaghetti.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* The first section of the header */
+header section:first-child{
+    display: flex;
+}
+header section:first-child h1{
+    font-family: Oleo Script Swash Caps;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem 8rem;
+}
+header section:first-child ul{
+    display: flex;
+    list-style: none;
+    padding: 3rem 0 0 20rem;
+}
+header section:first-child ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 2rem;
+}
+/* The second section of the header */
+header section:last-child{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+header section:last-child h1{
+    font-family: Oleo Script Swash Caps;
+    font-size: 5rem;
+    margin: 0.5rem;
+}
+header section:last-child p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+header section:last-child button{
+    background-color: #ee7600;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 3rem;
+    border: none;
+    margin-bottom: 8rem;
+}
